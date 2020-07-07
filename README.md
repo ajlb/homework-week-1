@@ -1,5 +1,5 @@
 # Horiseon Social Solution Services Refactor Project #
-![Website](https://img.shields.io/badge/HTML5-100%25-blue)
+![Website](https://img.shields.io/badge/HTML-68.9%25-brightgreen) ![Website](https://img.shields.io/badge/CSS-30.2-blueviolet)
 
 ## Project Motivation ##
 The Horiseon marketing agency wants a codebase that follows accessibility standards so that their site is optimized for search engines.
