@@ -36,17 +36,21 @@ header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;  
-    /* display: inline-block; */
     font-size: 48px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100%;    
 }
 
-mark {
+header h1 {
+    display: inline-block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 48px;
-    background-color: #2a607c;
-    color: #d9dcd6;
+}
+
+/* set the color to a higher contrast color from the rest of the header */
+.seo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #b3b4b6;
 }
 
 nav {
@@ -79,29 +83,32 @@ main {
     height: 100%;
 }
 
+/* class to float elements in left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* class to float elements right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* three main services offered by Horiseon */
 article {
     margin-left: 20px;
     background-color: #2a607c;
     margin-bottom: 20px;
     padding: 50px;
-    height: auto;
+    height: 300px;
 }
 
 img {
     max-height: 200px;
 }
 
-/* aside style */
+/* benefits of using Horiseon section */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -127,9 +134,8 @@ footer {
     padding: 30px;
     clear: both;
 }
-footer h2, footer p{
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+footer h3, footer p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: black;
-    font-size: 20px;
 }
