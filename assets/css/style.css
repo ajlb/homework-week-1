@@ -32,13 +32,11 @@ h3 {
 
 /* header, nav, and banner image styling */
 header {
-    float: left;
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;  
     font-size: 48px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 100%;    
 }
 
 header h1 {
